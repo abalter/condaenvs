@@ -1,1 +1,1 @@
-r-irkernel r-ggbeeswarm r-car r-corrplot r-ggally r-stringr r-kableextra r-dt r-tidyverse r-openxlsx r-reticulate
+r-irkernel r-ggbeeswarm r-car r-corrplot r-ggally r-stringr r-kableextra r-dt r-tidyverse r-openxlsx r-reticulate r-lme4 r-nlme r-pheatmap r-devtools r-mass r-reprex r-lubridate
