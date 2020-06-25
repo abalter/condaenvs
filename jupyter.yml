@@ -1,0 +1,19 @@
+name: jupyter
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - jupytext
+  - jupyter_contrib_nbextensions
+  - r-rmarkdown
+  - r-tidyverse
+  - r-ggplot2
+  - notebook
+  - ipykernel
+  - nb_conda_kernels
+  - r-irkernel
+  - jupyterlab
+  - jupyter
+prefix: /home/balter/conda/envs/jupyter
+

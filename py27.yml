@@ -1,0 +1,9 @@
+name: py27
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=2.7
+prefix: /home/balter/conda/envs/py27
+

@@ -1,0 +1,7 @@
+name: test
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+prefix: /home/balter/conda/envs/test
+

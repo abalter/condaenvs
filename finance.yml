@@ -1,0 +1,19 @@
+name: finance
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - seaborn
+  - pandas
+  - r-kableextra
+  - nb_conda_kernels
+  - matplotlib
+  - r-tidyverse
+  - r-dt
+  - r-ggplot2
+  - r-quantmod
+  - r-irkernel
+  - r-plotly
+prefix: /home/balter/conda/envs/finance
+

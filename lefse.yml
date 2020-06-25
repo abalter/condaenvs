@@ -1,0 +1,13 @@
+name: lefse
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - lefse
+  - r-ggplot2
+  - r-tidyverse
+  - r-ggbeeswarm
+  - r-rmarkdown
+prefix: /home/balter/conda/envs/lefse
+

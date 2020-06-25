@@ -1,0 +1,26 @@
+name: flexdash
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-crosstalk
+  - r-flexdashboard
+  - r-zoo
+  - r-animation
+  - r-data.table
+  - r-plotly
+  - r-htmltools
+  - r-dt
+  - r-bsplus
+  - r-ggbeeswarm
+  - r-maps
+  - r-scales
+  - r-quantmod
+  - r-htmltable
+  - r-readxl
+  - r-tidyverse
+  - r-tweenr
+  - r-viridis
+prefix: /home/balter/conda/envs/flexdash
+

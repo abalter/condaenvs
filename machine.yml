@@ -1,0 +1,14 @@
+name: machine
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - nb_conda_kernels
+  - jupyterlab
+  - scikit-learn
+  - numpy
+  - matplotlib
+  - pandas
+prefix: /home/balter/conda/envs/machine
+

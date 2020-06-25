@@ -1,4 +1,4 @@
-name: alphadiv
+name: piphillin
 channels:
   - conda-forge
   - bioconda
@@ -14,16 +14,17 @@ dependencies:
   - binutils_linux-64
   - libgcc-ng
   - bzip2
-  - expat
   - fribidi
   - gcc_impl_linux-64
+  - gmp
   - graphite2
+  - hmmer
   - icu
   - jpeg
   - libffi
-  - libglu
   - libiconv
   - libopenblas
+  - libunistring
   - libuuid
   - lz4-c
   - make
@@ -42,10 +43,14 @@ dependencies:
   - xorg-xproto
   - xz
   - zlib
+  - epa-ng
+  - gappa
   - gcc_linux-64
   - gettext
   - gfortran_impl_linux-64
+  - glpk
   - gxx_impl_linux-64
+  - hdf5
   - libblas
   - libedit
   - libpng
@@ -59,46 +64,71 @@ dependencies:
   - bwidget
   - freetype
   - gfortran_linux-64
-  - glib
   - gxx_linux-64
   - krb5
   - libcblas
+  - libidn2
   - liblapack
   - libtiff
+  - sqlite
   - tktable
   - xorg-libx11
   - fontconfig
   - gsl
   - libcurl
+  - python=3.6
+  - wget
   - xorg-libxext
   - xorg-libxrender
-  - cairo
+  - atomicwrites
+  - attrs
+  - certifi
+  - click
+  - coverage
   - curl
+  - future
+  - glib
+  - more-itertools
+  - numpy
+  - py
+  - pyparsing
+  - pytz
+  - six
+  - wcwidth
+  - cairo
+  - h5py
+  - packaging
+  - python-dateutil
+  - scipy
+  - setuptools
+  - zipp
   - harfbuzz
+  - importlib_metadata
+  - joblib
+  - pandas
+  - wheel
+  - biom-format
   - pango
+  - pip
+  - pluggy
+  - pytest
   - r-base
-  - r-abind
+  - pytest-cov
   - r-assertthat
   - r-backports
   - r-base64enc
+  - r-beeswarm
   - r-bitops
-  - r-boot
-  - r-cardata
   - r-clipr
-  - r-cluster
-  - r-codetools
   - r-colorspace
   - r-crayon
   - r-curl
-  - r-data.table
   - r-dbi
   - r-digest
   - r-evaluate
-  - r-extrafontdb
   - r-fansi
   - r-farver
   - r-fastmap
-  - r-foreign
   - r-generics
   - r-glue
   - r-gtable
@@ -110,9 +140,8 @@ dependencies:
   - r-magrittr
   - r-mass
   - r-mime
+  - r-naturalsort
   - r-nloptr
-  - r-nnet
-  - r-permute
   - r-pkgconfig
   - r-plogr
   - r-ps
@@ -122,14 +151,11 @@ dependencies:
   - r-rematch
   - r-rlang
   - r-rstudioapi
-  - r-rttf2pt1
   - r-sourcetools
-  - r-sparsem
   - r-stringi
   - r-sys
-  - r-systemfonts
   - r-utf8
-  - r-uuid
+  - r-vipor
   - r-viridislite
   - r-whisker
   - r-withr
@@ -139,19 +165,16 @@ dependencies:
   - r-zeallot
   - r-zip
   - r-askpass
+  - r-castor
   - r-catools
   - r-cli
   - r-ellipsis
-  - r-extrafont
   - r-fs
-  - r-gdtools
-  - r-hexbin
   - r-htmltools
   - r-later
   - r-lifecycle
   - r-markdown
   - r-matrix
-  - r-minqa
   - r-munsell
   - r-nlme
   - r-openxlsx
@@ -160,23 +183,19 @@ dependencies:
   - r-processx
   - r-purrr
   - r-rprojroot
-  - r-sp
   - r-stringr
   - r-tinytex
   - r-xml2
-  - r-zoo
+  - picrust2
   - r-callr
   - r-htmlwidgets
   - r-knitr
-  - r-lmtest
   - r-lubridate
-  - r-maptools
-  - r-matrixmodels
   - r-mgcv
   - r-openssl
   - r-promises
-  - r-rcppeigen
   - r-reshape2
+  - r-reticulate
   - r-scales
   - r-selectr
   - r-tidyselect
@@ -184,15 +203,10 @@ dependencies:
   - r-hms
   - r-httpuv
   - r-httr
-  - r-lme4
   - r-pheatmap
   - r-pillar
-  - r-quantreg
   - r-rmarkdown
-  - r-vcd
-  - r-vegan
   - r-webshot
-  - r-pbkrtest
   - r-progress
   - r-reprex
   - r-rvest
@@ -202,30 +216,19 @@ dependencies:
   - r-dplyr
   - r-forcats
   - r-ggplot2
-  - r-miniui
   - r-readr
-  - r-shinywidgets
   - r-crosstalk
   - r-dbplyr
-  - r-ggdendro
-  - r-ggiraph
-  - r-ggthemes
+  - r-ggbeeswarm
   - r-haven
-  - r-hrbrthemes
-  - r-manipulatewidget
+  - r-kableextra
   - r-readxl
   - r-tidyr
   - r-broom
-  - r-esquisse
-  - r-plotly
-  - r-rgl
-  - r-rio
-  - r-superheat
-  - r-car
+  - r-dt
   - r-modelr
   - r-tidyverse
-  - r-dt
-  - r-beeswarm
-  - r-ggbeeswarm
-prefix: /home/balter/conda/envs/alphadiv
+  - bioconductor-deseq2
+  - bioconductor-keggrest
+prefix: /home/balter/conda/envs/piphillin
 
